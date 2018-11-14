@@ -1,0 +1,223 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.header-section{
+     background: #87509C;
+     height: 100vh;
+     position: relative;
+     padding: 10px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{}
+nav{
+    float: left;
+    width: 80%;
+}
+nav ul{
+    text-align: right;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+   
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+nav ul li a:hover{
+    background: #64476f;
+} 
+.banner-content{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner-content h1{
+    font-size: 37px;
+    text-align: center;
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.banner-content a{
+    background: #EB7D4B;
+    font-size: 25px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px 30px;
+    color: white;
+    border-bottom: 5px solid #b8653f;
+}
+.service-section{
+    background: #17c2a4;
+    padding: 20px;
+}
+.heading{
+    text-align: center;
+    padding: 80px;
+}
+.heading h1{
+    font-size: 40px;
+    color: white;
+    margin: 0px;
+}
+.heading p{
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    max-width: 600px;
+    padding-top: 20px;
+}
+.service{
+    width: 25%;
+    margin: 0;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.service img{
+    max-width: 100%;
+}
+.service h2{
+    color: white;
+}
+.service p{
+    color: white;
+}
+.heading span{
+    height: 5px;
+    width: 100px;
+    background: #d2dfe8;
+    display: block;
+    margin: 0 auto;
+}
+.team-section{
+    background: #e7f1f8;
+}
+.team-section .heading h1{
+    color: #3c4761;
+}
+.team-section .heading p{
+    color: #3c4761;
+}
+.team-section .heading span{}
+.team-section .service img{
+    width: 200px;
+}
+.team-section .service h2{
+    color: black;
+}
+.team-section .service span{
+    color: #2a92da;
+}
+.team-section .service p{
+    color: black;
+}
+.social-link li{
+    list-style: none;
+    display: inline-block;
+}
+.social-link li a{
+    display: block;
+    color: white;
+    background: #78787863;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.social-link li a:hover{
+    
+background: #787878;
+}
+.skills-section{
+    background: #fff;
+}
+.skills-section .heading h1{
+    color: #3c4761;
+}
+.skills-section .heading span{}
+.skills-section .heading p{
+    color: #3c4761;
+}
+.skill{
+    float: left;
+    width: 25%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.skill img{
+    max-width: 100%;
+}
+.skill h2{}
+.portfolio{
+    background: #ffdd99;
+}
+.portfolio .heading{
+
+}
+.portfolio .heading h1{color: #393939;}
+.portfolio .heading p{color: #393939;}
+.portfolio .heading span{background: #e5c37f;}
+.laptop{width: 50%;float: left;padding: 20px;box-sizing: border-box;}
+.laptop img{}
+.laptop h2{text-align: center;}
+.portfolio nav{
+    display: inline-block;
+    width: 100%;
+}
+.portfolio nav ul {
+    text-align: center;
+}
+.portfolio nav ul li{}
+.portfolio nav ul li a{
+    color: black;
+    background: #d2bb8db3;
+    font-size: 20px;
+    margin: 10px;
+}
+.portfolio nav ul li a:hover{
+    background: white;
+}
+.pb{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.pb a{
+    background: #28ad95;
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    border-bottom: 5px solid #3e877a;
+}
